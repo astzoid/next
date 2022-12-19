@@ -32,7 +32,7 @@ module.exports = {
 		'plugin:jsx-a11y/recommended',
 		'plugin:prettier/recommended', // Make sure this is always the last element in the array.
 	],
-	ignorePatterns: ['*.cjs'],
+	ignorePatterns: ['.eslintrc.js'],
 	plugins: ['simple-import-sort', 'prettier'],
 	rules: {
 		'prettier/prettier': ['error', {}, { usePrettierrc: true }],
