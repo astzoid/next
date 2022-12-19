@@ -12,7 +12,6 @@
 		"lint": "next lint",
 		"v:patch": "npm version patch -m \"chore(release): %s\" --sign-git-tag",
 		"v:minor": "npm version minor -m \"chore(release): %s\" --sign-git-tag",
-		"v:major": "npm version major -m \"chore(release): %s\" --sign-git-tag",
 		"version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
 	},
 	"dependencies": {
